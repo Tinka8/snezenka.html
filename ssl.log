@@ -1,1 +1,0 @@
-sudo certbot --nginx --redirect -d snezenka.art --allow-subset-of-names -q --expand
