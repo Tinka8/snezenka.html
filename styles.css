@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(228,202,213,1) 0%, rgba(198,218,241,1) 100%);
+}
+
+.zuzova {
+    background-color: #FF71FA;
+}
+
+.modra {
+    background-color: #3CEFFC;
+}
+
+.svetske {
+    text-align: center; 
+    background-color: #F1EEED;
+    font-style: italic;
+}
+
+.duchovne {
+    text-align: center; 
+    background-color: #E5E5E5;
+    font-style: italic;
+}
+
+.nadpisy {
+    text-align: center;
+    background-color:#CBC0C0;
+    font-size: 105%;
+}
+
+.container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
