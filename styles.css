@@ -1,4 +1,4 @@
-body {
+.rainbow {
     height: 100vh;
     background: linear-gradient(90deg, rgba(228,202,213,1) 0%, rgba(198,218,241,1) 100%);
 }
@@ -78,6 +78,35 @@ a:hover {
               box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
 }
-  
-  
-  
+
+@keyframes blink {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px dashed #118503;
+}
+
+.digital {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+
+.led {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    animation: blink 1s infinite;
+}
+
+.copyright {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+}
+
