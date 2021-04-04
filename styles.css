@@ -92,6 +92,10 @@ a:hover {
     letter-spacing: 1px;
     color: #118503;
     font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -107,6 +111,7 @@ a:hover {
 }
 
 .copyright {
+    font-family: sans-serif;
     position: absolute;
     bottom: -40px;
     right: 0;
