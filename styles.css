@@ -124,3 +124,20 @@ a:hover {
     to {opacity: 1}
 }
 
+@keyframes numericChange {
+    0% {color: #118503;}
+    80% {color: #118503;}
+    100% {color: #fff;}
+}
+  
+#minutes {
+    animation: numericChange 60s infinite;
+}
+  
+#seconds {
+    animation: numericChange 1s infinite;
+}
+  
+#fractions {
+    animation: numericChange 100ms infinite;
+}
