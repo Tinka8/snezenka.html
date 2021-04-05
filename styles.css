@@ -141,3 +141,8 @@ a:hover {
 #fractions {
     animation: numericChange 100ms infinite;
 }
+
+
+#copyright-footer {
+    color: red;
+}

@@ -24,7 +24,44 @@
               &copy; 2021 TINKA
             </p>
         </div>
+        <script>
+          // Store elements reference in variables
+          const minutes = document.getElementById('minutes')
+          const seconds = document.getElementById('seconds')
+          const fractions = document.getElementById('fractions')
+
+          // Holds time in milliseconds since start
+          let elapsed = 0	
+
+          setInterval(() => {
+  
+          // Prepare default values
+          const values = {
+            'minutes': 0,
+            'seconds': 0,
+            'fractions': 0
+          }
+  
+          // Remaining time to show
+          let remaining = elapsed
+  
+          values.minutes = Math.floor(remaining / 1000 / 60)
+          remaining = remaining - values.minutes * 1000 * 60
+          values.seconds = Math.floor(remaining / 1000)
+          remaining = remaining - (values.seconds * 1000)
+          values.fractions = Math.floor(remaining / 10)
+  
+          // Set values to elements
+          minutes.innerText = `${values.minutes}`.padStart(2, 0)
+          seconds.innerText = `${values.seconds}`.padStart(2, 0)
+          fractions.innerText = `${values.fractions}`.padStart(2, 0)
+  
+          // Increase time elapsed since start
+	        elapsed += 10
+          }, 10)
+        </script>
     </body>
+</html>
 
 
     
