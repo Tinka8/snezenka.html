@@ -84,7 +84,7 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px dashed #118503;
+    border: 2px dashed #18cce4;
 }
 
 .digital {
@@ -125,8 +125,8 @@ a:hover {
 }
 
 @keyframes numericChange {
-    0% {color: #118503;}
-    80% {color: #118503;}
+    0% {color: #18cce4;}
+    80% {color: #18cce4;}
     100% {color: #fff;}
 }
   
@@ -141,5 +141,4 @@ a:hover {
 #fractions {
     animation: numericChange 100ms infinite;
 }
-
 
