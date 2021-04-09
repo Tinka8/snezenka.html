@@ -132,13 +132,19 @@ a:hover {
   
 #minutes {
     animation: numericChange 60s infinite;
+    display: inline-block;
+    width: 55px;
 }
   
 #seconds {
     animation: numericChange 1s infinite;
+    display: inline-block;
+    width: 55px;
 }
   
 #fractions {
     animation: numericChange 100ms infinite;
+    display: inline-block;
+    width: 50px;
 }
 
