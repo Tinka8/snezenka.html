@@ -154,3 +154,8 @@ a:hover {
     width: 50px;
 }
 
+#dots {
+    animation: blink 1s infinite;
+    display: inline-block;
+    width: 50px;
+}
