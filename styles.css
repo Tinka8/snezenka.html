@@ -90,7 +90,7 @@ a:hover {
 .digital {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 1px;
-    color: #118503;
+    color: #18cce4;
     font-size: 30px;
     padding-left: 20px;
     padding-right: 20px;
@@ -129,9 +129,15 @@ a:hover {
     80% {color: #18cce4;}
     100% {color: #fff;}
 }
-  
+
+@keyframes minutesChange {
+    50% {color: #18cce4;}
+    98% {color: #18cce4;}
+    100% {color: #fff;}
+}
+
 #minutes {
-    animation: numericChange 60s infinite;
+    animation: minutesChange 60s infinite;
     display: inline-block;
     width: 55px;
 }
