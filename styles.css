@@ -3,11 +3,15 @@
     background: linear-gradient(90deg, rgba(228,202,213,1) 0%, rgba(198,218,241,1) 100%);
 }
 
-.zuzova {
+.timeline-view {
+    background-color: rgb(243, 244, 246);
+}
+
+.pink {
     background-color: #FF71FA;
 }
 
-.modra {
+.blue {
     background-color: #3CEFFC;
 }
 
@@ -23,7 +27,7 @@
     font-style: italic;
 }
 
-.nadpisy {
+.headings {
     text-align: center;
     background-color:#DDD4D4;
     font-size: 105%;
