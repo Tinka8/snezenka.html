@@ -1,47 +1,63 @@
-<form>
-    <p>
-        <a href="./index.html">&laquo; Späť na hlavnú stránku</a>
-    </p>
-    <div>
-      <label>
-        Věk
-        <input type="text" value="17" id="age">
-      </label>
-    </div>
-  
-    <div>
-      <label>
-        Pohlaví
-        <select id="gender">
-          <option value="female">Žena</option>
-          <option value="male">Muž</option>
-        </select>
-      </label>
-    </div>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sk" lang="sk"> 
+    <head>
+        <title> Sněženka - BRM </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content=" Tinkaaaa " />
+        <meta name="description" content=" random Rozkladove výmysly " />
+        <meta name="keywords" content=" kľúčové slová pre vyhľadávače " />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+
+    </style>
+    <body>
+        <p>
+            <a href="./index.html">&laquo; Späť na hlavnú stránku</a>
+        </p>
+        <form>
+            <div>
+            <label>
+                Věk
+                <input type="text" value="17" id="age">
+            </label>
+            </div>
+        
+            <div>
+            <label>
+                Pohlaví
+                <select id="gender">
+                <option value="female">Žena</option>
+                <option value="male">Muž</option>
+                </select>
+            </label>
+            </div>
+            
+            <div>
+                <label>
+                Hmotnosť
+                <input type="text" value="17" id="weight">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                Výška
+                <input type="text" value="17" id="height">
+                </label>
+            </div>
+
+            <div>
+            <button type="button" id="calculate">
+                Spočítat
+            </button>
+            </div>
+            Vaše osobnost je <strong id="result"></strong>
+        </form>
+       
+    </body>
+</html>
     
-    <div>
-        <label>
-          Hmotnosť
-          <input type="text" value="17" id="weight">
-        </label>
-    </div>
-
-    <div>
-        <label>
-          Výška
-          <input type="text" value="17" id="height">
-        </label>
-    </div>
-
-    <div>
-      <button type="button" id="calculate">
-        Spočítat
-      </button>
-    </div>
-</form>
-  
-Vaše osobnost je <strong id="result"></strong>
-  
 
 <script>
 /**
