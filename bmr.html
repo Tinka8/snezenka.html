@@ -1,0 +1,85 @@
+<form>
+    <div>
+      <label>
+        Věk
+        <input type="text" value="17" id="age">
+      </label>
+    </div>
+  
+    <div>
+      <label>
+        Pohlaví
+        <select id="gender">
+          <option value="female">Žena</option>
+          <option value="male">Muž</option>
+        </select>
+      </label>
+    </div>
+    
+    <div>
+        <label>
+          Hmotnosť
+          <input type="text" value="17" id="weight">
+        </label>
+    </div>
+
+    <div>
+        <label>
+          Výška
+          <input type="text" value="17" id="height">
+        </label>
+    </div>
+
+    <div>
+      <button type="button" id="calculate">
+        Spočítat
+      </button>
+    </div>
+</form>
+  
+Vaše osobnost je <strong id="result"></strong>
+  
+
+<script>
+/**
+ * BMR calculation
+ * 
+ * Mifflin-St Jeor Equation
+ * 
+ * Male 
+ * BRM = (10*weight) + (6.25*height) - (5*age) + 5   
+ * 
+ * Female 
+ * BRM = (10*weight) + (6.25*height) - (5*age) - 161   
+ */
+
+    const ageInput = document.getElementById('age');
+    const genderInput = document.getElementById('gender');
+    const weightInput = document.getElementById('weight');
+    const heightInput = document.getElementById('height');
+    const calculateButton = document.getElementById('calculate');
+    const resultField = document.getElementById('result');
+
+    // When calculateButton is clicked execute function
+    calculateButton.addEventListener('click', () => {
+    // Gender dependent operations
+    const gender = genderInput.value;
+    const age = ageInput.value;
+    const weight = weightInput.value;
+    const height = heightInput.value;
+
+    let value = 'Neznama';
+
+    if (gender === 'female') {
+        value = (10*weight) + (6.25*height) - (5*age) - 161  
+    } else {
+        value = (10*weight) + (6.25*height) - (5*age) + 5 
+    }
+
+
+
+        // Write result to field
+    resultField.innerText = value;
+    });
+
+</script>
