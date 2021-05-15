@@ -334,4 +334,10 @@ button {
     appearance: none;
 }
 
+.bmr {
+    box-shadow: 6px 19px 23px 1px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
 
