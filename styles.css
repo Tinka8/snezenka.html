@@ -151,18 +151,14 @@
     font-style: italic;
 }
 
-.headings {
-    text-align: center;
-    background-color:#DDD4D4;
-    font-size: 105%;
-}
-
 .container {
     position: fixed;
-    left: 50%;
-    top: 50%;
+    left: 48%;
+    top: 40%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 25px;
     background-color: #fff;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
     animation: shadow-drop-2-center 0.65s linear both;
