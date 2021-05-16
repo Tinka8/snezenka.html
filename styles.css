@@ -329,10 +329,13 @@ input {
 
 select {
     appearance: none;
+    text-align: right;
 }
 
 button {
     appearance: none;
+    background-color: #60D87C;
+    width: 250px;
 }
 
 .bmr {
