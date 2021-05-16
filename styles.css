@@ -327,12 +327,17 @@ input {
     border-color: transparent;
     text-align: right;
     margin-left: 30px;
+    float: right;
+    font-size: small;
 }
 
 select {
     appearance: none;
     border-color: transparent;
     margin-left: 150px;
+    float: right;
+    font-size: small;
+
 }
 
 button {
