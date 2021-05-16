@@ -332,14 +332,14 @@ input {
     border-color: transparent;
     text-align: right;
     float: right;
-    font-size: small;
+    font-size: 75%;
 }
 
 select {
     appearance: none;
     border-color: transparent;
     float: right;
-    font-size: small;
+    font-size: 75%;
     font-weight: bold;
 }
 
@@ -359,6 +359,7 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
+    font-size: 90%;
 }
 
 form {
@@ -384,9 +385,9 @@ label {
     top: 130%;
     left: 80%;
     transform: translate(-80%, -80%);
-    padding: 15px;
+    padding: 12px;
     color: #000;
     background-color: #fff;
-    width: 290px;
+    width: 297px;
     font-family: sans-serif;
 }
