@@ -16,6 +16,11 @@ li {
     padding-top: 3px;
 }
 
+::selection { 
+    color: #fff;
+    background-color: #000000; 
+}
+
 /* ==========================================================================
    main page view
    ========================================================================== */
@@ -326,7 +331,6 @@ input {
     appearance: none;
     border-color: transparent;
     text-align: right;
-    margin-left: 30px;
     float: right;
     font-size: small;
 }
@@ -334,19 +338,19 @@ input {
 select {
     appearance: none;
     border-color: transparent;
-    margin-left: 150px;
     float: right;
     font-size: small;
-
+    font-weight: bold;
 }
 
 button {
     appearance: none;
     background-color: #60D87C;
     border-color: transparent;
-    margin-top: 10px;
     width: 300px;
     height: 35px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .bmr {
@@ -373,3 +377,16 @@ label {
     padding-top: 3px;
 }
 
+.box {
+    box-shadow: 6px 19px 23px 1px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    position: fixed;
+    top: 130%;
+    left: 80%;
+    transform: translate(-80%, -80%);
+    padding: 15px;
+    color: #000;
+    background-color: #fff;
+    width: 290px;
+    font-family: sans-serif;
+}
