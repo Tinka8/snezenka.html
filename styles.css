@@ -408,3 +408,12 @@ label {
     width: 155vh;
     transform: rotate(20deg);
 }
+
+.copy {
+    position: fixed;
+    top: 96%;
+    right: 1%;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 10px;
+}
