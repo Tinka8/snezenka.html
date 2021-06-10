@@ -499,7 +499,7 @@ label {
     text-decoration: underline;
     background-color: #FF71FA;
     font-weight: bold;
-    padding: 3px;
+    margin: 3px;
     margin-top: 20px;
 }
 
@@ -513,4 +513,5 @@ label {
 
 .exp {
     background-color: #23acac;
+    margin: 3px;
 }
