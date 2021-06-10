@@ -506,3 +506,11 @@ label {
 .change-text {
     color: #254d00;
 }
+
+.sans {
+    font-family: sans-serif;
+}
+
+.exp {
+    background-color: #23acac;
+}
