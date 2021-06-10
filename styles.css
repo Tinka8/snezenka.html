@@ -418,7 +418,6 @@ label {
     font-family: sans-serif;
     font-size: 10px;
 }
-
 /* ==========================================================================
    zone view
    ========================================================================== */
@@ -484,4 +483,26 @@ label {
     transform: translate(-50%, -50%);
     animation: infinite 10s breathetext;
 }
-  
+
+/* ==========================================================================
+   anj view
+   ========================================================================== */
+
+.und {
+    text-decoration: underline;
+    background-color: #ddd01e;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.change {
+    text-decoration: underline;
+    background-color: #FF71FA;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+.change-text {
+    color: #254d00;
+}
