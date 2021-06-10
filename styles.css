@@ -524,3 +524,24 @@ p {
 .padding {
     padding: 5px;
 }
+
+table {
+    border: 1px solid #000;
+    position: relative;
+}
+
+table td {
+    border: 1px solid #000;
+}
+
+table th {
+    border: 1px solid #000;
+}
+
+thead {
+    background-color: #e0caac;
+}
+
+tbody {
+    background-color: #c4aa85;
+}
