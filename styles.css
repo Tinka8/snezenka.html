@@ -488,11 +488,15 @@ label {
    anj view
    ========================================================================== */
 
+p {
+    padding: 20px;
+}
+
 .und {
     text-decoration: underline;
     background-color: #ddd01e;
     font-weight: bold;
-    padding: 3px;
+    padding: 5px;
 }
 
 .change {
@@ -514,4 +518,9 @@ label {
 .exp {
     background-color: #23acac;
     margin: 3px;
+    padding: 5px;
+}
+
+.padding {
+    padding: 5px;
 }
