@@ -562,3 +562,9 @@ tbody {
     background-color: #ddd01e;
     padding: 3px;
 }
+
+.heading {
+    text-align: center; 
+    font-weight: bold; 
+    text-decoration: underline;
+}
