@@ -545,3 +545,20 @@ thead {
 tbody {
     background-color: #c4aa85;
 }
+
+.descr {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.pinkie {
+    background-color: #FF71FA;
+    padding: 3px;
+}
+
+.yellow {
+    background-color: #ddd01e;
+    padding: 3px;
+}
