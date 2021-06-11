@@ -567,4 +567,23 @@ tbody {
     text-align: center; 
     font-weight: bold; 
     text-decoration: underline;
+    padding: 5px;
+}
+.padding-heading {
+    padding-top: 50px;
+}
+
+.under {
+    text-align: left;
+    font-weight: bold; 
+
+    padding: 5px;
+}
+
+.sub {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
 }
