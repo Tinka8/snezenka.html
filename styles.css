@@ -587,3 +587,8 @@ tbody {
 .bold {
     font-weight: bold;
 }
+
+.topic {
+    font-weight: bold;
+    text-decoration: underline;
+}
