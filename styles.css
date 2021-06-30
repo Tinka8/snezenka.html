@@ -23,6 +23,33 @@ li {
 }
 
 /* ==========================================================================
+   table view
+   ========================================================================== */
+
+table {
+    position: relative;
+    text-align: center;
+    background-color: #fff6e6;;
+    border: 1px solid #000;
+    border-collapse: collapse; 
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table td {
+    border: 1px solid #000;
+}
+
+table th {
+    border: 1px solid #000;
+}
+
+tbody {
+    background-color: #fff6e6;
+}
+
+/* ==========================================================================
    main page view
    ========================================================================== */
 
@@ -78,25 +105,6 @@ li {
 
 .blue {
     background-color: #3CEFFC;
-}
-
-table {
-    text-align: center;
-    background-color: #F4F3F0;
-    border: 1px solid #000;
-    border-collapse: collapse; 
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-table td {
-    border: 1px solid #000;
-}
-
-table th {
-    border: 1px solid #000;
 }
 
 /* ==========================================================================
@@ -524,27 +532,6 @@ label {
 
 .padding {
     padding: 5px;
-}
-
-table {
-    border: 1px solid #000;
-    position: relative;
-}
-
-table td {
-    border: 1px solid #000;
-}
-
-table th {
-    border: 1px solid #000;
-}
-
-thead {
-    background-color: #e0caac;
-}
-
-tbody {
-    background-color: #d6d2cb;
 }
 
 .descr {
